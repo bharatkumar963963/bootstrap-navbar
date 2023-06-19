@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Urbanist',sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover {
+    color: currentColor;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px rgba(0,0,0,25%);
+}
+
+header .container-fluid{
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nab-logo img{
+    width:140px;
+    height: 76px;
+    justify-content: left ;
+    margin-top: 10px;
+}
+
+header .navb-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+}
+ header .item{
+    text-align: center;
+    margin-inline: 15%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 5px o;
+    transition: all .1s ease;
+    cursor: pointer;
+ }
+
+ header .item:hover {
+    border-bottom:3px solid #64d6f4;
+    border-top:3px solid #64d6f4;
+ }
+
+ header .item-button a{
+    background-color: #274d;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
